@@ -1,0 +1,28 @@
+{
+  "name": "azure-cognitive-search-toolkit",
+  "version": "0.0.1",
+  "description": "A JavaScript Toolkit for Azure Cognitive Search Service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vitest dev",
+    "build": "tsc && esbuild src/index.ts --platform=node --sourcemap --target=node16 --bundle --outdir=dist",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuanqisun/azure-cognitive-search-toolkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chuanqisun/azure-cognitive-search-toolkit/issues"
+  },
+  "homepage": "https://github.com/chuanqisun/azure-cognitive-search-toolkit#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.27",
+    "typescript": "^4.6.2",
+    "vitest": "^0.6.1"
+  }
+}

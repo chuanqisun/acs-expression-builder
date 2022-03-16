@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es2019",
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "dist",
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "exclude": ["**/__mocks__/*", "**/__tests__/*"]
+}

@@ -1,3 +1,4 @@
+import { describe, expect, it } from "vitest";
 import {
   EmptyVariableNameError,
   InvalidVariableNameError,
@@ -54,7 +55,7 @@ describe("Constants", () => {
 
   it("Date", () => {
     assert(
-      field("foo").eq(new Date("2020-01-01T00:00")),
+      field("foo").eq(new Date("2020-01-01T00:00Z")),
       "foo eq 2020-01-01T00:00:00.000Z"
     );
   });
@@ -96,7 +97,7 @@ describe("Compare expression", () => {
     assert(field("foo").gt(100), "foo gt 100");
     assert(field("foo").eq("bar"), "foo eq 'bar'");
     assert(
-      field("foo").eq(new Date("2000-01-01T00:00")),
+      field("foo").eq(new Date("2000-01-01T00:00Z")),
       "foo eq 2000-01-01T00:00:00.000Z"
     );
   });

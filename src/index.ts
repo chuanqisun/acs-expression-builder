@@ -1,1 +1,1 @@
-export * from "./odata-filter-expression-builder";
+export * from "./filter-expression-builder";

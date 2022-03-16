@@ -1,7 +1,7 @@
 {
-  "name": "azure-cognitive-search-toolkit",
+  "name": "acs-expression-builder",
   "version": "0.0.1",
-  "description": "A JavaScript Toolkit for Azure Cognitive Search Service",
+  "description": "OData Filter Expression Builder for Azure Cognitive Search",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

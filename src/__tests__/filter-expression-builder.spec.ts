@@ -1,15 +1,15 @@
 import { describe, expect, it } from "vitest";
 import {
-  EmptyVariableNameError,
-  InvalidVariableNameError,
-} from "../lib/odata-syntax";
-import {
   Expression,
   field,
   ifAll,
   ifAny,
   not,
-} from "../odata-filter-expression-builder";
+} from "../filter-expression-builder";
+import {
+  EmptyVariableNameError,
+  InvalidVariableNameError,
+} from "../lib/odata-syntax";
 
 describe("Variable", () => {
   it("Empty varialbe", () => {

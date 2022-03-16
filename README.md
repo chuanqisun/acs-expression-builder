@@ -17,7 +17,7 @@ npm i acs-expression-builder
 ```javascript
 import { field, ifAny } from "acs-expression-builder";
 const exp = field("foo").any((item) => ifAny([item().eq("x"), item().eq("y")]));
-console.log(exp); // foo/any(i: i eq 'x' or i eq 'y')
+console.log(exp.toString()); // foo/any(i: i eq 'x' or i eq 'y')
 ```
 
 ## Documentation

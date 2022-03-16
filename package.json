@@ -1,6 +1,6 @@
 {
   "name": "acs-expression-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An OData Filter Expression Builder for Azure Cognitive Search.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chuanqisun/azure-cognitive-search-toolkit.git"
+    "url": "git+https://github.com/chuanqisun/acs-expression-builder.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chuanqisun/azure-cognitive-search-toolkit/issues"
+    "url": "https://github.com/chuanqisun/acs-expression-builder/issues"
   },
-  "homepage": "https://github.com/chuanqisun/azure-cognitive-search-toolkit#readme",
+  "homepage": "https://github.com/chuanqisun/acs-expression-builder#readme",
   "devDependencies": {
     "esbuild": "^0.14.27",
     "typescript": "^4.6.2",

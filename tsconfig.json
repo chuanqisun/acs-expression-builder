@@ -10,5 +10,6 @@
     "declaration": true,
     "emitDeclarationOnly": true
   },
+  "include": ["src/**/*.ts"],
   "exclude": ["**/__mocks__/*", "**/__tests__/*"]
 }

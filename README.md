@@ -1,6 +1,12 @@
 # ACS Expression Builder
 
-An OData Filter Expression Builder for Azure Cognitive Search
+An OData Filter Expression Builder for Azure Cognitive Search.
+
+Supports
+
+- [$filter](https://docs.microsoft.com/en-us/azure/search/search-query-odata-filter)
+- [$orderBy](https://docs.microsoft.com/en-us/azure/search/search-query-odata-orderby) (future)
+- [$select](https://docs.microsoft.com/en-us/azure/search/search-query-odata-select) (future)
 
 ## Get started
 

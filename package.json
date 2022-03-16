@@ -1,7 +1,7 @@
 {
   "name": "acs-expression-builder",
   "version": "0.0.1",
-  "description": "OData Filter Expression Builder for Azure Cognitive Search",
+  "description": "An OData Filter Expression Builder for Azure Cognitive Search.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

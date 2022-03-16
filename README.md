@@ -9,7 +9,7 @@ npm i acs-expression-builder
 ```
 
 ```javascript
-import { field, any, ifAny, item, eq } from "acs-expression-builder";
+import { field, ifAny } from "acs-expression-builder";
 const exp = field("foo").any((item) => ifAny([item().eq("x"), item().eq("y")]));
 console.log(exp); // foo/any(i: i eq 'x' or i eq 'y')
 ```
